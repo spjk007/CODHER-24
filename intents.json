@@ -1,0 +1,36 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Hello", "Good day"],
+        "responses": [
+          "Hey! Welcome to our campus navigation system. How can I assist you today?",
+          "Hello! How may I help you?",
+          "Hi there! What can I do for you?"
+        ]
+      },
+      {
+        "tag": "current_location",
+        "patterns": ["Where am I?", "What's my current location?", "Can you tell me where I am?"],
+        "responses": ["Sure! Could you please tell me your current location?"]
+      },
+      {
+        "tag": "destination_location",
+        "patterns": ["Where do I want to go?", "Can you help me navigate to a destination?", "What's my destination location?"],
+        "responses": ["Of course! Where do you want to go?"]
+      },
+      {
+        "tag": "route",
+        "patterns": [
+          "Navigate me from {current_location} to {destination_location}",
+          "Find the shortest route from {current_location} to {destination_location}",
+          "How do I get from {current_location} to {destination_location}?"
+        ],
+        "responses": [
+          "Navigating from {current_location} to {destination_location}.",
+          "The shortest route from {current_location} to {destination_location} is..."
+        ]
+      }
+    ]
+  }
+  

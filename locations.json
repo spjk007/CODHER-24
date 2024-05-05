@@ -1,0 +1,40 @@
+{
+    "locations": [
+      {
+        "name": "Principal Office",
+        "nearby": {
+          "right": "CSE Department",
+          "left": "Cafeteria"
+        }
+      },
+      {
+        "name": "CSE Department",
+        "nearby": {
+          "left": "Principal Office",
+          "right": "Lab1"
+        }
+      },
+      {
+        "name": "Lab1",
+        "nearby": {
+          "left": "CSE Department",
+          "right": "Lab2"
+        }
+      },
+      {
+        "name": "Lab2",
+        "nearby": {
+          "left": "Lab1",
+          "right": "Cafeteria"
+        }
+      },
+      {
+        "name": "Cafeteria",
+        "nearby": {
+          "right": "Principal Office",
+          "left": "Lab2"
+        }
+      }
+    ]
+  }
+  
